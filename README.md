@@ -8,6 +8,7 @@ _Notice: To cleanly integrate updates from upstream, this branch might be rebase
 
 ## Third party patches
 
+- adjacenttag-skipvacant
 - alwayscenter
 - bar height
 - cyclelayouts

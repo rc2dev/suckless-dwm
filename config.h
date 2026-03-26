@@ -206,6 +206,10 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_y,                    togglesystray,  {0} },
 	{ MODKEY,                       XK_0,                    view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask,             XK_0,                    tag,            {.ui = ~0 } },
+	{ MODKEY,                       XK_Tab,                  viewnext,       {0} },
+	{ MODKEY|ShiftMask,             XK_Tab,                  viewprev,       {0} },
+	//{ MODKEY|ShiftMask,             XK_Right,                tagtonext,      {0} },
+	//{ MODKEY|ShiftMask,             XK_Left,                 tagtoprev,      {0} },
 
 	/* Layouts */
 	{ MODKEY,                       XK_t,                    setlayout,      {.v = &layouts[0]} }, // tiling
