@@ -65,7 +65,7 @@ static const Rule rules[] = {
 	/* class                  instance    title                    tags mask  isfloating  issticky  monitor */
 
 	/* Tags */
-	{ "Chromium",              "chromium", NULL,                   1 << 0,    0,          0,        -1 },
+	{ "Brave-browser",         "brave-browser", NULL,              1 << 0,    0,          0,        -1 },
 	{ "st-256color",           "st-256color", NULL,                1 << 1,    0,          0,        -1 },
 	{ "st-256color",           "tmux",    NULL,                    1 << 1,    0,          0,        -1 },
 	{ "Code",                  NULL,      NULL,                    1 << 1,    0,          0,        -1 },
@@ -75,14 +75,11 @@ static const Rule rules[] = {
 	{ "Virt-manager",          NULL,      NULL,                    1 << 6,    0,          0,        -1 },
 	{ "Virt-viewer",           NULL,      NULL,                    1 << 6,    0,          0,        -1 },
 	{ "firefox",               NULL,      NULL,                    1 << 7,    0,          0,        -1 },
+	{ "Chromium",              "chromium", NULL,                   1 << 7,    0,          0,        -1 },
 	{ "Microsoft-edge",        NULL,      NULL,                    1 << 7,    0,          0,        -1 },
 	{ NULL,                    "cmus",    NULL,                    1 << 8,    0,          0,        -1 },
+	{ "feishin",               "feishin",    NULL,                    1 << 8,    0,          0,        -1 },
 	{ "Spotify",               NULL,      NULL,                    1 << 8,    0,          0,        -1 },
-	/* Chromium app: Navidrome */
-	{ NULL,                    "crx_pnhedncanefcljjmcphgpihjjmnibojh", NULL, 1 << 8, 0,   0,        -1 },
-	/* Chromium app: Spotify */
-	{ NULL,                    "crx_pjibgclleladliembfgfagdaldikeohf", NULL, 1 << 8, 0,   0,        -1 },
-
 
 	/* Floating */
 	{ "gnome-calculator",      NULL,      NULL,                    0,         1,          0,        -1 },
